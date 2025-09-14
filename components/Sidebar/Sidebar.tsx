@@ -2,6 +2,7 @@ import React from 'react'
 import AccountToggle from './AccountToggle'
 import Search from './Search'
 import RouteSelect from './RouteSelect'
+import Plan from './Plan'
 
 function Sidebar() {
     return (
@@ -13,6 +14,9 @@ function Sidebar() {
                 <RouteSelect />
             </div>
             {/* TODO Plan Toggle */}
+            <div className='pe-6'>
+                <Plan />
+            </div>
         </div>
     )
 }
