@@ -4,7 +4,7 @@ import Sidebar from "@/components/Sidebar/Sidebar";
 
 export default function Home() {
   return (
-    <main className="grid gap-4 p-4 grid-cols-[220px_1fr]">
+    <main className="grid gap-4 p-4 grid-cols-[220px_1fr] min-h-screen">
       <Sidebar />
       <Dashboard />
     </main>

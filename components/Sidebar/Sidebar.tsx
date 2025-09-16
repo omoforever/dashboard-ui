@@ -6,15 +6,13 @@ import Plan from './Plan'
 
 function Sidebar() {
     return (
-        <div className=''>
-            <div className='overflow-y-scroll sticky top-4 h-[calc(100vh-32px-48px)] pe-2'>
-                {/* TODO Main sidebar content */}
+        <div className='h-fit sticky top-4 flex flex-col '>
+            <div className='overflow-y-auto pe-2 flex-1'>
                 <AccountToggle />
                 <Search />
                 <RouteSelect />
             </div>
-            {/* TODO Plan Toggle */}
-            <div className='pe-6'>
+            <div className='pe-6 mt-4'>
                 <Plan />
             </div>
         </div>
